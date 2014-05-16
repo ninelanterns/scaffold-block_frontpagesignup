@@ -1,0 +1,31 @@
+/**
+ * The stylesheet for the site login block
+ *
+ * All style classes should be prefixed with '.block_trainingplan' to prevent 
+ * them cascading outside of the trainingplan block.
+ * 
+ * @package    blocks
+ * @subpackage frontpagelogin
+ * @copyright  &copy; 2012 Nine Lanterns Pty Ltd  {@link http://www.ninelanterns.com.au}
+ * @author     tri.le
+ * @version    2.1
+ */
+
+.block_frontpagesignup {
+    text-align: center;
+}
+
+.block_frontpagesignup.block .content h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.block_frontpagesignup.block .content a {
+    color: #EE352A;
+}
+
+.block_frontpagesignup .signupform {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
